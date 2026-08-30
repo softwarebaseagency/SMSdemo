@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in · Lezan School Management System</title>
+<meta name="description" content="Lezan English Private School &amp; Kindergarten — School Management System. Interface demo by Base Agency.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c2445'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='15' font-weight='700' fill='%23fecd08' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="static/fonts/BaseMeridionEnglish-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="static/css/tokens.css">
+<link rel="stylesheet" href="static/css/app.css">
+<link rel="stylesheet" href="static/css/login.css">
+</head>
+<body>
+
+<main class="login">
+
+  <!-- ================= Form side ================= -->
+  <section class="login__form-side">
+
+    <header class="login__brand">
+      <span class="login__crest" aria-hidden="true">LZ</span>
+      <span>
+        <span class="login__brand-name" data-i18n="app.schoolShort">Lezan Private School</span>
+        <span class="login__brand-sub" data-i18n="app.tagline">School Management System</span>
+      </span>
+
+      <div class="login__lang">
+        <button type="button" id="langBtn" aria-haspopup="true" aria-expanded="false">
+          <span id="langIcon" aria-hidden="true"></span>
+          <span id="langLabel">English</span>
+          <span id="langCaret" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="login__center">
+      <h1 class="login__title" data-i18n="login.title">Sign in to Lezan SMS</h1>
+      <p class="login__lede" data-i18n="login.lede">One controlled platform for the student journey.</p>
+
+      <form class="login__fields" id="loginForm" novalidate>
+
+        <div class="login__field">
+          <label class="login__label" for="userField" data-i18n="login.email">Email or username</label>
+          <div class="login__input-wrap">
+            <input class="login__input" id="userField" name="username" type="text"
+                   autocomplete="username" value="rezan.director@lezan.edu.krd" spellcheck="false">
+          </div>
+        </div>
+
+        <div class="login__field">
+          <label class="login__label" for="pwField" data-i18n="login.password">Password</label>
+          <div class="login__input-wrap">
+            <!-- password managers and paste stay enabled -->
+            <input class="login__input login__input--pw" id="pwField" name="password" type="password"
+                   autocomplete="current-password" value="demo-preview">
+            <button class="login__reveal" type="button" id="revealBtn"
+                    aria-pressed="false" aria-label="Show password"></button>
+          </div>
+        </div>
+
+        <div class="login__row">
+          <label class="login__check">
+            <input type="checkbox" class="box" checked>
+            <span data-i18n="login.remember">Keep me signed in</span>
+          </label>
+          <a class="login__link" href="#" data-i18n="login.forgot">Forgot password?</a>
+        </div>
+
+        <button class="login__submit" type="submit" id="submitBtn">
+          <span id="submitLabel" data-i18n="login.submit">Sign in</span>
+          <span id="submitIcon" aria-hidden="true"></span>
+        </button>
+
+        <p class="field__help" style="text-align:center" data-i18n="login.hint">
+          No credentials needed — this is a demo.
+        </p>
+      </form>
+
+      <div class="login__divider"><span data-i18n="login.orRole">Or explore as</span></div>
+
+      <div class="login__roles" id="roleGrid"></div>
+    </div>
+
+    <footer class="login__foot">
+      <img src="static/img/base-logo-navy.png" alt="Base Agency">
+      <span data-i18n="app.byBase">Built by Base Agency</span>
+      <span class="push">v1.0 · <span data-i18n="app.demo">Demo preview</span></span>
+    </footer>
+  </section>
+
+  <!-- ================= Brand side ================= -->
+  <aside class="login__brand-side on-dark" aria-hidden="true">
+    <div class="login__mesh"></div>
+    <div class="login__glow"></div>
+
+    <div class="login__panel-top">
+      <p class="login__quote" id="loginQuote" data-i18n="login.quote" data-i18n-html>
+        One student identity. <em>Every year of their record.</em>
+      </p>
+      <p class="login__quote-sub" data-i18n="login.quoteSub">
+        Promotion adds a new enrolment record.
+      </p>
+      <div class="login__modules" id="moduleChips"></div>
+    </div>
+
+    <div class="login__panel-bottom">
+      <div class="login__stats">
+        <div>
+          <div class="login__stat-value">1,284</div>
+          <div class="login__stat-label" data-i18n="n.students">Students</div>
+        </div>
+        <div>
+          <div class="login__stat-value">10</div>
+          <div class="login__stat-label" data-i18n="login.tenModules">Ten core modules</div>
+        </div>
+        <div>
+          <div class="login__stat-value">3</div>
+          <div class="login__stat-label" data-i18n="login.languages">Languages</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<div class="toaster" id="toaster" aria-live="polite" aria-atomic="false"></div>
+
+<script src="static/js/icons.js"></script>
+<script src="static/js/i18n.js"></script>
+<script>
+(function () {
+  "use strict";
+  var t = I18n.t;
+
+  /* ---- Icons ---------------------------------------------------------- */
+  document.getElementById("langIcon").innerHTML   = Icon("globe", { size: 14 });
+  document.getElementById("langCaret").innerHTML  = Icon("chevronDown", { size: 12 });
+  document.getElementById("submitIcon").innerHTML = Icon("arrowRight", { size: 17 });
+  document.getElementById("revealBtn").innerHTML  = Icon("eye", { size: 17 });
+
+  /* ---- The ten modules, named on the brand panel ----------------------- */
+  var MODULE_KEYS = [
+    "mod.admissions.short", "mod.students.short", "mod.attendance.short",
+    "mod.timetable.short", "mod.exams.short", "mod.fees.short",
+    "mod.staff.short", "mod.portal.short", "mod.comms.short", "mod.reports.short"
+  ];
+  function paintChips() {
+    document.getElementById("moduleChips").innerHTML = MODULE_KEYS.map(function (k, i) {
+      return '<span class="login__module"><b>' +
+        String(i + 1).padStart(2, "0") + '</b>' + t(k) + "</span>";
+    }).join("");
+  }
+
+  /* ---- Role shortcuts — each lands on the module that role lives in ---- */
+  var ROLES = [
+    { key: "role.director",  icon: "shield",      route: "reports" },
+    { key: "role.registrar", icon: "inbox",       route: "admissions" },
+    { key: "role.finance",   icon: "wallet",      route: "fees" },
+    { key: "role.teacher",   icon: "calendarCheck", route: "attendance" }
+  ];
+  function paintRoles() {
+    document.getElementById("roleGrid").innerHTML = ROLES.map(function (r) {
+      return '<button class="login__role" type="button" data-route="' + r.route + '">' +
+        Icon(r.icon, { size: 15 }) + "<span>" + t(r.key) + "</span></button>";
+    }).join("");
+  }
+
+  /* ---- Language menu --------------------------------------------------- */
+  var langBtn = document.getElementById("langBtn");
+  var langMenu = null;
+
+  function closeLangMenu() {
+    if (!langMenu) { return; }
+    langMenu.remove(); langMenu = null;
+    langBtn.setAttribute("aria-expanded", "false");
+    document.removeEventListener("click", onDocClick, true);
+    document.removeEventListener("keydown", onMenuKey, true);
+  }
+  function onDocClick(e) {
+    if (langMenu && !langMenu.contains(e.target) && !langBtn.contains(e.target)) { closeLangMenu(); }
+  }
+  function onMenuKey(e) {
+    if (e.key === "Escape") { closeLangMenu(); langBtn.focus(); }
+  }
+  langBtn.addEventListener("click", function () {
+    if (langMenu) { closeLangMenu(); return; }
+    langMenu = document.createElement("div");
+    langMenu.className = "menu";
+    langMenu.setAttribute("role", "menu");
+    langMenu.innerHTML = '<div class="menu__label">' + t("act.language") + "</div>" +
+      I18n.all().map(function (l) {
+        return '<button type="button" role="menuitemradio" data-lang="' + l.code + '" aria-checked="' +
+          (l.code === I18n.get()) + '">' + l.meta.native +
+          '<span class="muted text-xs" style="margin-inline-start:6px">' + l.meta.short + "</span></button>";
+      }).join("");
+    var box = langBtn.getBoundingClientRect();
+    langMenu.style.top = (box.bottom + window.scrollY + 6) + "px";
+    langMenu.style.insetInlineStart = "auto";
+    langMenu.style.left = Math.max(12, box.right - 200) + "px";
+    document.body.appendChild(langMenu);
+    langBtn.setAttribute("aria-expanded", "true");
+    langMenu.querySelector("button").focus();
+    langMenu.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-lang]");
+      if (!b) { return; }
+      I18n.set(b.getAttribute("data-lang"));
+      closeLangMenu();
+      langBtn.focus();
+    });
+    setTimeout(function () {
+      document.addEventListener("click", onDocClick, true);
+      document.addEventListener("keydown", onMenuKey, true);
+    }, 0);
+  });
+
+  /* ---- Password reveal ------------------------------------------------- */
+  var pw = document.getElementById("pwField");
+  var reveal = document.getElementById("revealBtn");
+  reveal.addEventListener("click", function () {
+    var shown = pw.type === "text";
+    pw.type = shown ? "password" : "text";
+    reveal.setAttribute("aria-pressed", String(!shown));
+    reveal.setAttribute("aria-label", shown ? t("login.showPassword") : t("login.hidePassword"));
+    reveal.innerHTML = Icon(shown ? "eye" : "eyeOff", { size: 17 });
+  });
+
+  /* ---- Sign in: any click gets you in --------------------------------- */
+  var submitBtn = document.getElementById("submitBtn");
+  var busy = false;
+
+  function enter(route) {
+    if (busy) { return; }
+    busy = true;
+    submitBtn.setAttribute("data-busy", "true");
+    document.getElementById("submitLabel").textContent = t("login.signingIn");
+    document.getElementById("submitIcon").innerHTML = '<span class="spinner"></span>';
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    setTimeout(function () {
+      window.location.href = "app.html#/" + (route || "reports");
+    }, reduce ? 0 : 480);
+  }
+
+  document.getElementById("loginForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    enter("reports");
+  });
+  document.getElementById("roleGrid").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-route]");
+    if (b) { enter(b.getAttribute("data-route")); }
+  });
+
+  /* ---- Language application ------------------------------------------- */
+  function refresh() {
+    var m = I18n.meta();
+    document.getElementById("langLabel").textContent = m.native;
+    reveal.setAttribute("aria-label", pw.type === "text" ? t("login.hidePassword") : t("login.showPassword"));
+    paintChips();
+    paintRoles();
+  }
+  I18n.onChange(refresh);
+  I18n.restore();
+  refresh();
+})();
+</script>
+</body>
+</html>
