@@ -1,0 +1,242 @@
+{
+  "family": "Base Meridion English",
+  "version": "1.002",
+  "styles": [
+    {
+      "file": "BaseMeridionEnglish-Thin.ttf",
+      "family_name": "Base Meridion English Thin",
+      "typographic_family": "Base Meridion English",
+      "style": "Thin",
+      "postscript_name": "BaseMeridionEnglish-Thin",
+      "weight": 100,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-ThinItalic.ttf",
+      "family_name": "Base Meridion English Thin",
+      "typographic_family": "Base Meridion English",
+      "style": "Thin Italic",
+      "postscript_name": "BaseMeridionEnglish-ThinItalic",
+      "weight": 100,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-ExtraLight.ttf",
+      "family_name": "Base Meridion English ExtraLight",
+      "typographic_family": "Base Meridion English",
+      "style": "ExtraLight",
+      "postscript_name": "BaseMeridionEnglish-ExtraLight",
+      "weight": 200,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-ExtraLightItalic.ttf",
+      "family_name": "Base Meridion English ExtraLight",
+      "typographic_family": "Base Meridion English",
+      "style": "ExtraLight Italic",
+      "postscript_name": "BaseMeridionEnglish-ExtraLightItalic",
+      "weight": 200,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-Light.ttf",
+      "family_name": "Base Meridion English Light",
+      "typographic_family": "Base Meridion English",
+      "style": "Light",
+      "postscript_name": "BaseMeridionEnglish-Light",
+      "weight": 300,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-LightItalic.ttf",
+      "family_name": "Base Meridion English Light",
+      "typographic_family": "Base Meridion English",
+      "style": "Light Italic",
+      "postscript_name": "BaseMeridionEnglish-LightItalic",
+      "weight": 300,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-Regular.ttf",
+      "family_name": "Base Meridion English",
+      "typographic_family": "Base Meridion English",
+      "style": "Regular",
+      "postscript_name": "BaseMeridionEnglish-Regular",
+      "weight": 400,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {
+        "salam": [
+          "arabicdot0645",
+          "arabicdot0627",
+          "arabicdot0644",
+          "arabicdot0633"
+        ],
+        "kurdish": [
+          "arabicdot064A",
+          "arabicdot062F",
+          "arabicdot0631",
+          "arabicdot0648",
+          "arabicdot0643"
+        ],
+        "arabic": [
+          "arabicdot064A",
+          "arabicdot0628",
+          "arabicdot0631",
+          "arabicdot0639"
+        ]
+      }
+    },
+    {
+      "file": "BaseMeridionEnglish-Italic.ttf",
+      "family_name": "Base Meridion English",
+      "typographic_family": "Base Meridion English",
+      "style": "Italic",
+      "postscript_name": "BaseMeridionEnglish-Italic",
+      "weight": 400,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-Medium.ttf",
+      "family_name": "Base Meridion English Medium",
+      "typographic_family": "Base Meridion English",
+      "style": "Medium",
+      "postscript_name": "BaseMeridionEnglish-Medium",
+      "weight": 500,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-MediumItalic.ttf",
+      "family_name": "Base Meridion English Medium",
+      "typographic_family": "Base Meridion English",
+      "style": "Medium Italic",
+      "postscript_name": "BaseMeridionEnglish-MediumItalic",
+      "weight": 500,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-SemiBold.ttf",
+      "family_name": "Base Meridion English SemiBold",
+      "typographic_family": "Base Meridion English",
+      "style": "SemiBold",
+      "postscript_name": "BaseMeridionEnglish-SemiBold",
+      "weight": 600,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-SemiBoldItalic.ttf",
+      "family_name": "Base Meridion English SemiBold",
+      "typographic_family": "Base Meridion English",
+      "style": "SemiBold Italic",
+      "postscript_name": "BaseMeridionEnglish-SemiBoldItalic",
+      "weight": 600,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-Bold.ttf",
+      "family_name": "Base Meridion English",
+      "typographic_family": "Base Meridion English",
+      "style": "Bold",
+      "postscript_name": "BaseMeridionEnglish-Bold",
+      "weight": 700,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-BoldItalic.ttf",
+      "family_name": "Base Meridion English",
+      "typographic_family": "Base Meridion English",
+      "style": "Bold Italic",
+      "postscript_name": "BaseMeridionEnglish-BoldItalic",
+      "weight": 700,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-Black.ttf",
+      "family_name": "Base Meridion English Black",
+      "typographic_family": "Base Meridion English",
+      "style": "Black",
+      "postscript_name": "BaseMeridionEnglish-Black",
+      "weight": 900,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-BlackItalic.ttf",
+      "family_name": "Base Meridion English Black",
+      "typographic_family": "Base Meridion English",
+      "style": "Black Italic",
+      "postscript_name": "BaseMeridionEnglish-BlackItalic",
+      "weight": 900,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-Super.ttf",
+      "family_name": "Base Meridion English Super",
+      "typographic_family": "Base Meridion English",
+      "style": "Super",
+      "postscript_name": "BaseMeridionEnglish-Super",
+      "weight": 1000,
+      "glyphs": 4217,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    },
+    {
+      "file": "BaseMeridionEnglish-SuperItalic.ttf",
+      "family_name": "Base Meridion English Super",
+      "typographic_family": "Base Meridion English",
+      "style": "Super Italic",
+      "postscript_name": "BaseMeridionEnglish-SuperItalic",
+      "weight": 1000,
+      "glyphs": 4181,
+      "missing_required_characters": [],
+      "arabic_dot_mapping_ok": true,
+      "arabic_shape_glyphs": {}
+    }
+  ]
+}

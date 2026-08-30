@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Thin.woff2") format("woff2"), url("./BaseMeridionEnglish-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-ThinItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-ExtraLight.woff2") format("woff2"), url("./BaseMeridionEnglish-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-ExtraLightItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Light.woff2") format("woff2"), url("./BaseMeridionEnglish-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-LightItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Regular.woff2") format("woff2"), url("./BaseMeridionEnglish-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Italic.woff2") format("woff2"), url("./BaseMeridionEnglish-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Medium.woff2") format("woff2"), url("./BaseMeridionEnglish-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-MediumItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-SemiBold.woff2") format("woff2"), url("./BaseMeridionEnglish-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-SemiBoldItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Bold.woff2") format("woff2"), url("./BaseMeridionEnglish-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-BoldItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Black.woff2") format("woff2"), url("./BaseMeridionEnglish-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-BlackItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-Super.woff2") format("woff2"), url("./BaseMeridionEnglish-Super.ttf") format("truetype");
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Base Meridion English";
+  src: url("./BaseMeridionEnglish-SuperItalic.woff2") format("woff2"), url("./BaseMeridionEnglish-SuperItalic.ttf") format("truetype");
+  font-weight: 1000;
+  font-style: italic;
+  font-display: swap;
+}

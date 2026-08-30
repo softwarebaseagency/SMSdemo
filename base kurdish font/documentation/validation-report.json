@@ -1,0 +1,3423 @@
+{
+  "family": "BASE Meridion Kurdish",
+  "version": "1.013",
+  "styles": [
+    {
+      "file": "BASEMeridionKurdish-Regular.ttf",
+      "typographic_family": "BASE Meridion Kurdish",
+      "typographic_subfamily": "Regular",
+      "win_family": "BASE Meridion Kurdish",
+      "win_subfamily": "Regular",
+      "full_name": "BASE Meridion Kurdish Regular",
+      "postscript": "BASEMeridionKurdish-Regular",
+      "usWeightClass": 400,
+      "glyphs": 1509,
+      "unicode_codepoints": 1089,
+      "notdef_free": true,
+      "target_shaping": {
+        "ڵ": [
+          "uni06B5"
+        ],
+        "سڵاو": [
+          "uni0648",
+          "glyph00681",
+          "uniFEB3"
+        ],
+        "بڵ": [
+          "glyph00454",
+          "uniFE91"
+        ],
+        "ڵب": [
+          "uniFE90",
+          "glyph00452"
+        ],
+        "بڵب": [
+          "uniFE90",
+          "glyph00453",
+          "uniFE91"
+        ],
+        "ڵا": [
+          "glyph00680"
+        ],
+        "بڵا": [
+          "glyph00681",
+          "uniFE91"
+        ],
+        "ڵآ": [
+          "glyph00682"
+        ],
+        "بڵآ": [
+          "glyph00683",
+          "uniFE91"
+        ],
+        "ڵأ": [
+          "glyph00684"
+        ],
+        "بڵأ": [
+          "glyph00685",
+          "uniFE91"
+        ],
+        "ڵإ": [
+          "glyph00686"
+        ],
+        "بڵإ": [
+          "glyph00687",
+          "uniFE91"
+        ],
+        "ڵٱ": [
+          "glyph00688"
+        ],
+        "بڵٱ": [
+          "glyph00689",
+          "uniFE91"
+        ],
+        "ڵٲ": [
+          "glyph00690"
+        ],
+        "بڵٲ": [
+          "glyph00691",
+          "uniFE91"
+        ],
+        "ڵٳ": [
+          "glyph00692"
+        ],
+        "بڵٳ": [
+          "glyph00693",
+          "uniFE91"
+        ],
+        "م": [
+          "uni0645"
+        ],
+        "کەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFB90"
+        ],
+        "ئەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFE8B"
+        ],
+        "دەم": [
+          "uni0645",
+          "uni06D5",
+          "uni062F"
+        ],
+        "مەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFEE3"
+        ],
+        "گەرم": [
+          "uni0645",
+          "uni0631",
+          "glyph00572",
+          "uniFB94"
+        ],
+        "ممم": [
+          "uniFEE2",
+          "uniFEE4",
+          "uniFEE3"
+        ],
+        "ئمب": [
+          "uniFE90",
+          "glyph00615"
+        ],
+        "بمب": [
+          "uniFE90",
+          "glyph00620"
+        ],
+        "تمب": [
+          "uniFE90",
+          "glyph00625"
+        ],
+        "ثمب": [
+          "uniFE90",
+          "glyph00630"
+        ],
+        "لم": [
+          "glyph00750"
+        ],
+        "لمب": [
+          "uniFE90",
+          "uniFCCC"
+        ],
+        "کما": [
+          "glyph00756",
+          "uniFB90"
+        ],
+        "کمآ": [
+          "glyph00757",
+          "uniFB90"
+        ],
+        "کمأ": [
+          "glyph00758",
+          "uniFB90"
+        ],
+        "کمإ": [
+          "glyph00759",
+          "uniFB90"
+        ],
+        "نمب": [
+          "uniFE90",
+          "glyph00761"
+        ],
+        "يمب": [
+          "uniFE90",
+          "glyph00765"
+        ],
+        "ڕ": [
+          "uni0695"
+        ],
+        "بڕ": [
+          "glyph00274",
+          "uniFE91"
+        ],
+        "ڕب": [
+          "uni0628",
+          "uni0695"
+        ]
+      },
+      "target_join_overlaps": {
+        "بڵ": [
+          true
+        ],
+        "ڵب": [
+          true
+        ],
+        "بڵب": [
+          true,
+          true
+        ],
+        "بم": [
+          true
+        ],
+        "مب": [
+          true
+        ],
+        "مم": [
+          true
+        ],
+        "ممم": [
+          true,
+          true
+        ],
+        "بمب": [
+          true
+        ],
+        "بڕ": [
+          true
+        ],
+        "ڕب": [
+          false
+        ],
+        "بڕب": [
+          false,
+          true
+        ]
+      },
+      "target_geometry": {
+        "uni06B5": {
+          "advance": 1178,
+          "lsb": 68,
+          "bbox": [
+            68,
+            -416,
+            1191,
+            1722
+          ],
+          "contours": 2,
+          "contour_points": [
+            48,
+            13
+          ]
+        },
+        "glyph00452": {
+          "advance": 527,
+          "lsb": -62,
+          "bbox": [
+            -62,
+            0,
+            502,
+            1722
+          ],
+          "contours": 2,
+          "contour_points": [
+            16,
+            13
+          ]
+        },
+        "glyph00453": {
+          "advance": 708,
+          "lsb": -66,
+          "bbox": [
+            -66,
+            0,
+            780,
+            1722
+          ],
+          "contours": 2,
+          "contour_points": [
+            39,
+            13
+          ]
+        },
+        "glyph00454": {
+          "advance": 1246,
+          "lsb": 20,
+          "bbox": [
+            20,
+            -416,
+            1301,
+            1722
+          ],
+          "contours": 2,
+          "contour_points": [
+            46,
+            13
+          ]
+        },
+        "glyph00680": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            83,
+            0,
+            1019,
+            1722
+          ],
+          "contours": 2,
+          "contour_points": [
+            18,
+            13
+          ]
+        },
+        "glyph00681": {
+          "advance": 1126,
+          "lsb": 83,
+          "bbox": [
+            83,
+            0,
+            1195,
+            1722
+          ],
+          "contours": 2,
+          "contour_points": [
+            36,
+            13
+          ]
+        },
+        "glyph00682": {
+          "advance": 1040,
+          "lsb": 19,
+          "bbox": [
+            19,
+            0,
+            1020,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            26,
+            13
+          ]
+        },
+        "glyph00683": {
+          "advance": 1126,
+          "lsb": 50,
+          "bbox": [
+            50,
+            0,
+            1195,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            36,
+            26,
+            13
+          ]
+        },
+        "glyph00684": {
+          "advance": 1040,
+          "lsb": 81,
+          "bbox": [
+            81,
+            0,
+            1019,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            30,
+            13
+          ]
+        },
+        "glyph00685": {
+          "advance": 1126,
+          "lsb": 81,
+          "bbox": [
+            81,
+            0,
+            1195,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            36,
+            30,
+            13
+          ]
+        },
+        "glyph00686": {
+          "advance": 1040,
+          "lsb": 105,
+          "bbox": [
+            105,
+            -517,
+            1020,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            30,
+            13
+          ]
+        },
+        "glyph00687": {
+          "advance": 1126,
+          "lsb": 105,
+          "bbox": [
+            105,
+            -517,
+            1179,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            36,
+            30,
+            13
+          ]
+        },
+        "glyph00688": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            83,
+            0,
+            1019,
+            1722
+          ],
+          "contours": 4,
+          "contour_points": [
+            12,
+            24,
+            18,
+            13
+          ]
+        },
+        "glyph00689": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            99,
+            0,
+            1211,
+            1722
+          ],
+          "contours": 4,
+          "contour_points": [
+            12,
+            24,
+            36,
+            13
+          ]
+        },
+        "glyph00690": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            83,
+            0,
+            1019,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            59,
+            13
+          ]
+        },
+        "glyph00691": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            99,
+            0,
+            1211,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            36,
+            59,
+            13
+          ]
+        },
+        "glyph00692": {
+          "advance": 1040,
+          "lsb": 101,
+          "bbox": [
+            101,
+            -349,
+            1020,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            59,
+            13
+          ]
+        },
+        "glyph00693": {
+          "advance": 1146,
+          "lsb": 112,
+          "bbox": [
+            112,
+            -348,
+            1199,
+            1722
+          ],
+          "contours": 3,
+          "contour_points": [
+            36,
+            59,
+            13
+          ]
+        },
+        "uni0645": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            10,
+            -178,
+            1252,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            30,
+            18
+          ]
+        },
+        "uniFEE1": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            10,
+            -178,
+            1252,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            30,
+            18
+          ]
+        },
+        "uniFEE2": {
+          "advance": 1479,
+          "lsb": 10,
+          "bbox": [
+            10,
+            -176,
+            1534,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            16,
+            44
+          ]
+        },
+        "uniFEE3": {
+          "advance": 1029,
+          "lsb": -64,
+          "bbox": [
+            -64,
+            -15,
+            859,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            35,
+            16
+          ]
+        },
+        "uniFEE4": {
+          "advance": 1079,
+          "lsb": -64,
+          "bbox": [
+            -64,
+            -15,
+            1152,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            18,
+            49
+          ]
+        },
+        "glyph00100": {
+          "advance": 1029,
+          "lsb": 5,
+          "bbox": [
+            5,
+            -742,
+            872,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            16,
+            33
+          ]
+        },
+        "glyph00104": {
+          "advance": 1079,
+          "lsb": 5,
+          "bbox": [
+            5,
+            -742,
+            1134,
+            636
+          ],
+          "contours": 2,
+          "contour_points": [
+            18,
+            60
+          ]
+        },
+        "glyph00615": {
+          "advance": 1668,
+          "lsb": -66,
+          "bbox": [
+            -66,
+            -15,
+            1571,
+            1278
+          ],
+          "contours": 3,
+          "contour_points": [
+            36,
+            18,
+            63
+          ]
+        },
+        "glyph00620": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -46,
+            -392,
+            1499,
+            636
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            63,
+            4
+          ]
+        },
+        "glyph00625": {
+          "advance": 1688,
+          "lsb": -65,
+          "bbox": [
+            -65,
+            -15,
+            1563,
+            1086
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            63,
+            8
+          ]
+        },
+        "glyph00630": {
+          "advance": 1688,
+          "lsb": -66,
+          "bbox": [
+            -66,
+            -15,
+            1544,
+            1284
+          ],
+          "contours": 4,
+          "contour_points": [
+            18,
+            63,
+            8,
+            4
+          ]
+        },
+        "glyph00750": {
+          "advance": 2025,
+          "lsb": 10,
+          "bbox": [
+            10,
+            -176,
+            1913,
+            1234
+          ],
+          "contours": 2,
+          "contour_points": [
+            16,
+            46
+          ]
+        },
+        "uniFCCC": {
+          "advance": 1626,
+          "lsb": -66,
+          "bbox": [
+            -66,
+            -15,
+            1505,
+            1234
+          ],
+          "contours": 2,
+          "contour_points": [
+            18,
+            52
+          ]
+        },
+        "glyph00756": {
+          "advance": 1502,
+          "lsb": 130,
+          "bbox": [
+            130,
+            -15,
+            1562,
+            1235
+          ],
+          "contours": 2,
+          "contour_points": [
+            18,
+            54
+          ]
+        },
+        "glyph00757": {
+          "advance": 1485,
+          "lsb": -112,
+          "bbox": [
+            -112,
+            -15,
+            1545,
+            1506
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            26,
+            54
+          ]
+        },
+        "glyph00758": {
+          "advance": 1502,
+          "lsb": 77,
+          "bbox": [
+            77,
+            -15,
+            1563,
+            1683
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            30,
+            54
+          ]
+        },
+        "glyph00759": {
+          "advance": 1510,
+          "lsb": 64,
+          "bbox": [
+            64,
+            -517,
+            1556,
+            1235
+          ],
+          "contours": 3,
+          "contour_points": [
+            30,
+            18,
+            54
+          ]
+        },
+        "glyph00761": {
+          "advance": 1654,
+          "lsb": -65,
+          "bbox": [
+            -65,
+            -15,
+            1516,
+            1183
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            4,
+            63
+          ]
+        },
+        "glyph00765": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -46,
+            -397,
+            1517,
+            636
+          ],
+          "contours": 3,
+          "contour_points": [
+            18,
+            63,
+            8
+          ]
+        },
+        "uni0695": {
+          "advance": 645,
+          "lsb": 68,
+          "bbox": [
+            68,
+            -872,
+            593,
+            573
+          ],
+          "contours": 2,
+          "contour_points": [
+            36,
+            13
+          ]
+        },
+        "glyph00274": {
+          "advance": 708,
+          "lsb": -80,
+          "bbox": [
+            -80,
+            -872,
+            754,
+            588
+          ],
+          "contours": 2,
+          "contour_points": [
+            35,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "file": "BASEMeridionKurdish-Medium.ttf",
+      "typographic_family": "BASE Meridion Kurdish",
+      "typographic_subfamily": "Medium",
+      "win_family": "BASE Meridion Kurdish Medium",
+      "win_subfamily": "Regular",
+      "full_name": "BASE Meridion Kurdish Medium",
+      "postscript": "BASEMeridionKurdish-Medium",
+      "usWeightClass": 500,
+      "glyphs": 1509,
+      "unicode_codepoints": 1089,
+      "notdef_free": true,
+      "target_shaping": {
+        "ڵ": [
+          "uni06B5"
+        ],
+        "سڵاو": [
+          "uni0648",
+          "glyph00681",
+          "uniFEB3"
+        ],
+        "بڵ": [
+          "glyph00454",
+          "uniFE91"
+        ],
+        "ڵب": [
+          "uniFE90",
+          "glyph00452"
+        ],
+        "بڵب": [
+          "uniFE90",
+          "glyph00453",
+          "uniFE91"
+        ],
+        "ڵا": [
+          "glyph00680"
+        ],
+        "بڵا": [
+          "glyph00681",
+          "uniFE91"
+        ],
+        "ڵآ": [
+          "glyph00682"
+        ],
+        "بڵآ": [
+          "glyph00683",
+          "uniFE91"
+        ],
+        "ڵأ": [
+          "glyph00684"
+        ],
+        "بڵأ": [
+          "glyph00685",
+          "uniFE91"
+        ],
+        "ڵإ": [
+          "glyph00686"
+        ],
+        "بڵإ": [
+          "glyph00687",
+          "uniFE91"
+        ],
+        "ڵٱ": [
+          "glyph00688"
+        ],
+        "بڵٱ": [
+          "glyph00689",
+          "uniFE91"
+        ],
+        "ڵٲ": [
+          "glyph00690"
+        ],
+        "بڵٲ": [
+          "glyph00691",
+          "uniFE91"
+        ],
+        "ڵٳ": [
+          "glyph00692"
+        ],
+        "بڵٳ": [
+          "glyph00693",
+          "uniFE91"
+        ],
+        "م": [
+          "uni0645"
+        ],
+        "کەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFB90"
+        ],
+        "ئەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFE8B"
+        ],
+        "دەم": [
+          "uni0645",
+          "uni06D5",
+          "uni062F"
+        ],
+        "مەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFEE3"
+        ],
+        "گەرم": [
+          "uni0645",
+          "uni0631",
+          "glyph00572",
+          "uniFB94"
+        ],
+        "ممم": [
+          "uniFEE2",
+          "uniFEE4",
+          "uniFEE3"
+        ],
+        "ئمب": [
+          "uniFE90",
+          "glyph00615"
+        ],
+        "بمب": [
+          "uniFE90",
+          "glyph00620"
+        ],
+        "تمب": [
+          "uniFE90",
+          "glyph00625"
+        ],
+        "ثمب": [
+          "uniFE90",
+          "glyph00630"
+        ],
+        "لم": [
+          "glyph00750"
+        ],
+        "لمب": [
+          "uniFE90",
+          "uniFCCC"
+        ],
+        "کما": [
+          "glyph00756",
+          "uniFB90"
+        ],
+        "کمآ": [
+          "glyph00757",
+          "uniFB90"
+        ],
+        "کمأ": [
+          "glyph00758",
+          "uniFB90"
+        ],
+        "کمإ": [
+          "glyph00759",
+          "uniFB90"
+        ],
+        "نمب": [
+          "uniFE90",
+          "glyph00761"
+        ],
+        "يمب": [
+          "uniFE90",
+          "glyph00765"
+        ],
+        "ڕ": [
+          "uni0695"
+        ],
+        "بڕ": [
+          "glyph00274",
+          "uniFE91"
+        ],
+        "ڕب": [
+          "uni0628",
+          "uni0695"
+        ]
+      },
+      "target_join_overlaps": {
+        "بڵ": [
+          true
+        ],
+        "ڵب": [
+          true
+        ],
+        "بڵب": [
+          true,
+          true
+        ],
+        "بم": [
+          true
+        ],
+        "مب": [
+          true
+        ],
+        "مم": [
+          true
+        ],
+        "ممم": [
+          true,
+          true
+        ],
+        "بمب": [
+          true
+        ],
+        "بڕ": [
+          true
+        ],
+        "ڕب": [
+          false
+        ],
+        "بڕب": [
+          false,
+          true
+        ]
+      },
+      "target_geometry": {
+        "uni06B5": {
+          "advance": 1178,
+          "lsb": 68,
+          "bbox": [
+            54,
+            -430,
+            1205,
+            1736
+          ],
+          "contours": 2,
+          "contour_points": [
+            74,
+            49
+          ]
+        },
+        "glyph00452": {
+          "advance": 527,
+          "lsb": -62,
+          "bbox": [
+            -76,
+            -14,
+            516,
+            1736
+          ],
+          "contours": 2,
+          "contour_points": [
+            38,
+            49
+          ]
+        },
+        "glyph00453": {
+          "advance": 708,
+          "lsb": -66,
+          "bbox": [
+            -80,
+            -14,
+            793,
+            1736
+          ],
+          "contours": 2,
+          "contour_points": [
+            76,
+            49
+          ]
+        },
+        "glyph00454": {
+          "advance": 1246,
+          "lsb": 20,
+          "bbox": [
+            6,
+            -430,
+            1314,
+            1736
+          ],
+          "contours": 2,
+          "contour_points": [
+            97,
+            49
+          ]
+        },
+        "glyph00680": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            69,
+            -14,
+            1033,
+            1736
+          ],
+          "contours": 2,
+          "contour_points": [
+            55,
+            49
+          ]
+        },
+        "glyph00681": {
+          "advance": 1126,
+          "lsb": 83,
+          "bbox": [
+            69,
+            -14,
+            1208,
+            1736
+          ],
+          "contours": 2,
+          "contour_points": [
+            84,
+            49
+          ]
+        },
+        "glyph00682": {
+          "advance": 1040,
+          "lsb": 19,
+          "bbox": [
+            5,
+            -14,
+            1034,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            53,
+            54,
+            50
+          ]
+        },
+        "glyph00683": {
+          "advance": 1126,
+          "lsb": 50,
+          "bbox": [
+            36,
+            -14,
+            1208,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            84,
+            54,
+            49
+          ]
+        },
+        "glyph00684": {
+          "advance": 1040,
+          "lsb": 81,
+          "bbox": [
+            67,
+            -14,
+            1033,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            55,
+            68,
+            49
+          ]
+        },
+        "glyph00685": {
+          "advance": 1126,
+          "lsb": 81,
+          "bbox": [
+            67,
+            -14,
+            1208,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            84,
+            68,
+            49
+          ]
+        },
+        "glyph00686": {
+          "advance": 1040,
+          "lsb": 105,
+          "bbox": [
+            91,
+            -531,
+            1034,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            53,
+            69,
+            49
+          ]
+        },
+        "glyph00687": {
+          "advance": 1126,
+          "lsb": 105,
+          "bbox": [
+            91,
+            -531,
+            1192,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            84,
+            69,
+            49
+          ]
+        },
+        "glyph00688": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            69,
+            -14,
+            1033,
+            1736
+          ],
+          "contours": 4,
+          "contour_points": [
+            55,
+            49,
+            42,
+            17
+          ]
+        },
+        "glyph00689": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            85,
+            -14,
+            1224,
+            1736
+          ],
+          "contours": 4,
+          "contour_points": [
+            84,
+            49,
+            43,
+            17
+          ]
+        },
+        "glyph00690": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            69,
+            -14,
+            1033,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            55,
+            49,
+            95
+          ]
+        },
+        "glyph00691": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            85,
+            -14,
+            1224,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            84,
+            49,
+            94
+          ]
+        },
+        "glyph00692": {
+          "advance": 1040,
+          "lsb": 101,
+          "bbox": [
+            87,
+            -346,
+            1034,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            53,
+            49,
+            94
+          ]
+        },
+        "glyph00693": {
+          "advance": 1146,
+          "lsb": 112,
+          "bbox": [
+            98,
+            -345,
+            1211,
+            1736
+          ],
+          "contours": 3,
+          "contour_points": [
+            80,
+            49,
+            94
+          ]
+        },
+        "uni0645": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            -4,
+            -192,
+            1266,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            55,
+            30
+          ]
+        },
+        "uniFEE1": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            -4,
+            -192,
+            1266,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            55,
+            30
+          ]
+        },
+        "uniFEE2": {
+          "advance": 1479,
+          "lsb": 10,
+          "bbox": [
+            -4,
+            -190,
+            1546,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            80,
+            26
+          ]
+        },
+        "uniFEE3": {
+          "advance": 1029,
+          "lsb": -64,
+          "bbox": [
+            -79,
+            -29,
+            873,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            53,
+            25
+          ]
+        },
+        "uniFEE4": {
+          "advance": 1079,
+          "lsb": -64,
+          "bbox": [
+            -79,
+            -29,
+            1165,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            76,
+            28
+          ]
+        },
+        "glyph00100": {
+          "advance": 1029,
+          "lsb": 5,
+          "bbox": [
+            -9,
+            -756,
+            886,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            59,
+            25
+          ]
+        },
+        "glyph00104": {
+          "advance": 1079,
+          "lsb": 5,
+          "bbox": [
+            -9,
+            -756,
+            1146,
+            650
+          ],
+          "contours": 2,
+          "contour_points": [
+            94,
+            26
+          ]
+        },
+        "glyph00615": {
+          "advance": 1668,
+          "lsb": -66,
+          "bbox": [
+            -80,
+            -29,
+            1586,
+            1292
+          ],
+          "contours": 3,
+          "contour_points": [
+            102,
+            79,
+            28
+          ]
+        },
+        "glyph00620": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -60,
+            -406,
+            1513,
+            650
+          ],
+          "contours": 3,
+          "contour_points": [
+            106,
+            28,
+            27
+          ]
+        },
+        "glyph00625": {
+          "advance": 1688,
+          "lsb": -65,
+          "bbox": [
+            -79,
+            -29,
+            1577,
+            1100
+          ],
+          "contours": 3,
+          "contour_points": [
+            107,
+            28,
+            42
+          ]
+        },
+        "glyph00630": {
+          "advance": 1688,
+          "lsb": -66,
+          "bbox": [
+            -80,
+            -29,
+            1558,
+            1298
+          ],
+          "contours": 4,
+          "contour_points": [
+            102,
+            28,
+            42,
+            26
+          ]
+        },
+        "glyph00750": {
+          "advance": 2025,
+          "lsb": 10,
+          "bbox": [
+            -4,
+            -190,
+            1927,
+            1248
+          ],
+          "contours": 2,
+          "contour_points": [
+            86,
+            24
+          ]
+        },
+        "uniFCCC": {
+          "advance": 1626,
+          "lsb": -66,
+          "bbox": [
+            -80,
+            -29,
+            1519,
+            1248
+          ],
+          "contours": 2,
+          "contour_points": [
+            90,
+            28
+          ]
+        },
+        "glyph00756": {
+          "advance": 1502,
+          "lsb": 130,
+          "bbox": [
+            116,
+            -29,
+            1575,
+            1249
+          ],
+          "contours": 2,
+          "contour_points": [
+            90,
+            29
+          ]
+        },
+        "glyph00757": {
+          "advance": 1485,
+          "lsb": -112,
+          "bbox": [
+            -126,
+            -29,
+            1558,
+            1520
+          ],
+          "contours": 3,
+          "contour_points": [
+            93,
+            29,
+            54
+          ]
+        },
+        "glyph00758": {
+          "advance": 1502,
+          "lsb": 77,
+          "bbox": [
+            62,
+            -29,
+            1576,
+            1697
+          ],
+          "contours": 3,
+          "contour_points": [
+            89,
+            29,
+            72
+          ]
+        },
+        "glyph00759": {
+          "advance": 1510,
+          "lsb": 64,
+          "bbox": [
+            49,
+            -531,
+            1569,
+            1249
+          ],
+          "contours": 3,
+          "contour_points": [
+            92,
+            28,
+            71
+          ]
+        },
+        "glyph00761": {
+          "advance": 1654,
+          "lsb": -65,
+          "bbox": [
+            -79,
+            -29,
+            1530,
+            1197
+          ],
+          "contours": 3,
+          "contour_points": [
+            104,
+            28,
+            26
+          ]
+        },
+        "glyph00765": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -60,
+            -411,
+            1531,
+            650
+          ],
+          "contours": 3,
+          "contour_points": [
+            106,
+            28,
+            44
+          ]
+        },
+        "uni0695": {
+          "advance": 645,
+          "lsb": 68,
+          "bbox": [
+            54,
+            -886,
+            607,
+            587
+          ],
+          "contours": 2,
+          "contour_points": [
+            62,
+            49
+          ]
+        },
+        "glyph00274": {
+          "advance": 708,
+          "lsb": -80,
+          "bbox": [
+            -94,
+            -886,
+            767,
+            602
+          ],
+          "contours": 2,
+          "contour_points": [
+            79,
+            49
+          ]
+        }
+      }
+    },
+    {
+      "file": "BASEMeridionKurdish-SemiBold.ttf",
+      "typographic_family": "BASE Meridion Kurdish",
+      "typographic_subfamily": "SemiBold",
+      "win_family": "BASE Meridion Kurdish SemiBold",
+      "win_subfamily": "Regular",
+      "full_name": "BASE Meridion Kurdish SemiBold",
+      "postscript": "BASEMeridionKurdish-SemiBold",
+      "usWeightClass": 600,
+      "glyphs": 1509,
+      "unicode_codepoints": 1089,
+      "notdef_free": true,
+      "target_shaping": {
+        "ڵ": [
+          "uni06B5"
+        ],
+        "سڵاو": [
+          "uni0648",
+          "glyph00681",
+          "uniFEB3"
+        ],
+        "بڵ": [
+          "glyph00454",
+          "uniFE91"
+        ],
+        "ڵب": [
+          "uniFE90",
+          "glyph00452"
+        ],
+        "بڵب": [
+          "uniFE90",
+          "glyph00453",
+          "uniFE91"
+        ],
+        "ڵا": [
+          "glyph00680"
+        ],
+        "بڵا": [
+          "glyph00681",
+          "uniFE91"
+        ],
+        "ڵآ": [
+          "glyph00682"
+        ],
+        "بڵآ": [
+          "glyph00683",
+          "uniFE91"
+        ],
+        "ڵأ": [
+          "glyph00684"
+        ],
+        "بڵأ": [
+          "glyph00685",
+          "uniFE91"
+        ],
+        "ڵإ": [
+          "glyph00686"
+        ],
+        "بڵإ": [
+          "glyph00687",
+          "uniFE91"
+        ],
+        "ڵٱ": [
+          "glyph00688"
+        ],
+        "بڵٱ": [
+          "glyph00689",
+          "uniFE91"
+        ],
+        "ڵٲ": [
+          "glyph00690"
+        ],
+        "بڵٲ": [
+          "glyph00691",
+          "uniFE91"
+        ],
+        "ڵٳ": [
+          "glyph00692"
+        ],
+        "بڵٳ": [
+          "glyph00693",
+          "uniFE91"
+        ],
+        "م": [
+          "uni0645"
+        ],
+        "کەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFB90"
+        ],
+        "ئەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFE8B"
+        ],
+        "دەم": [
+          "uni0645",
+          "uni06D5",
+          "uni062F"
+        ],
+        "مەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFEE3"
+        ],
+        "گەرم": [
+          "uni0645",
+          "uni0631",
+          "glyph00572",
+          "uniFB94"
+        ],
+        "ممم": [
+          "uniFEE2",
+          "uniFEE4",
+          "uniFEE3"
+        ],
+        "ئمب": [
+          "uniFE90",
+          "glyph00615"
+        ],
+        "بمب": [
+          "uniFE90",
+          "glyph00620"
+        ],
+        "تمب": [
+          "uniFE90",
+          "glyph00625"
+        ],
+        "ثمب": [
+          "uniFE90",
+          "glyph00630"
+        ],
+        "لم": [
+          "glyph00750"
+        ],
+        "لمب": [
+          "uniFE90",
+          "uniFCCC"
+        ],
+        "کما": [
+          "glyph00756",
+          "uniFB90"
+        ],
+        "کمآ": [
+          "glyph00757",
+          "uniFB90"
+        ],
+        "کمأ": [
+          "glyph00758",
+          "uniFB90"
+        ],
+        "کمإ": [
+          "glyph00759",
+          "uniFB90"
+        ],
+        "نمب": [
+          "uniFE90",
+          "glyph00761"
+        ],
+        "يمب": [
+          "uniFE90",
+          "glyph00765"
+        ],
+        "ڕ": [
+          "uni0695"
+        ],
+        "بڕ": [
+          "glyph00274",
+          "uniFE91"
+        ],
+        "ڕب": [
+          "uni0628",
+          "uni0695"
+        ]
+      },
+      "target_join_overlaps": {
+        "بڵ": [
+          true
+        ],
+        "ڵب": [
+          true
+        ],
+        "بڵب": [
+          true,
+          true
+        ],
+        "بم": [
+          true
+        ],
+        "مب": [
+          true
+        ],
+        "مم": [
+          true
+        ],
+        "ممم": [
+          true,
+          true
+        ],
+        "بمب": [
+          true
+        ],
+        "بڕ": [
+          true
+        ],
+        "ڕب": [
+          false
+        ],
+        "بڕب": [
+          false,
+          true
+        ]
+      },
+      "target_geometry": {
+        "uni06B5": {
+          "advance": 1178,
+          "lsb": 68,
+          "bbox": [
+            42,
+            -442,
+            1217,
+            1748
+          ],
+          "contours": 2,
+          "contour_points": [
+            72,
+            51
+          ]
+        },
+        "glyph00452": {
+          "advance": 527,
+          "lsb": -62,
+          "bbox": [
+            -88,
+            -26,
+            528,
+            1748
+          ],
+          "contours": 2,
+          "contour_points": [
+            40,
+            51
+          ]
+        },
+        "glyph00453": {
+          "advance": 708,
+          "lsb": -66,
+          "bbox": [
+            -92,
+            -26,
+            806,
+            1748
+          ],
+          "contours": 2,
+          "contour_points": [
+            76,
+            53
+          ]
+        },
+        "glyph00454": {
+          "advance": 1246,
+          "lsb": 20,
+          "bbox": [
+            -6,
+            -442,
+            1326,
+            1748
+          ],
+          "contours": 2,
+          "contour_points": [
+            97,
+            51
+          ]
+        },
+        "glyph00680": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            57,
+            -26,
+            1045,
+            1748
+          ],
+          "contours": 2,
+          "contour_points": [
+            59,
+            51
+          ]
+        },
+        "glyph00681": {
+          "advance": 1126,
+          "lsb": 83,
+          "bbox": [
+            57,
+            -26,
+            1221,
+            1748
+          ],
+          "contours": 2,
+          "contour_points": [
+            88,
+            53
+          ]
+        },
+        "glyph00682": {
+          "advance": 1040,
+          "lsb": 19,
+          "bbox": [
+            -7,
+            -26,
+            1046,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            58,
+            51
+          ]
+        },
+        "glyph00683": {
+          "advance": 1126,
+          "lsb": 50,
+          "bbox": [
+            24,
+            -26,
+            1221,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            58,
+            51
+          ]
+        },
+        "glyph00684": {
+          "advance": 1040,
+          "lsb": 81,
+          "bbox": [
+            54,
+            -26,
+            1045,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            70,
+            51
+          ]
+        },
+        "glyph00685": {
+          "advance": 1126,
+          "lsb": 81,
+          "bbox": [
+            54,
+            -26,
+            1221,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            70,
+            53
+          ]
+        },
+        "glyph00686": {
+          "advance": 1040,
+          "lsb": 105,
+          "bbox": [
+            79,
+            -543,
+            1046,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            73,
+            51
+          ]
+        },
+        "glyph00687": {
+          "advance": 1126,
+          "lsb": 105,
+          "bbox": [
+            79,
+            -543,
+            1204,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            73,
+            53
+          ]
+        },
+        "glyph00688": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            57,
+            -26,
+            1045,
+            1748
+          ],
+          "contours": 4,
+          "contour_points": [
+            59,
+            51,
+            44,
+            17
+          ]
+        },
+        "glyph00689": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            73,
+            -26,
+            1237,
+            1748
+          ],
+          "contours": 4,
+          "contour_points": [
+            88,
+            53,
+            45,
+            17
+          ]
+        },
+        "glyph00690": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            57,
+            -26,
+            1045,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            51,
+            93
+          ]
+        },
+        "glyph00691": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            73,
+            -26,
+            1237,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            53,
+            92
+          ]
+        },
+        "glyph00692": {
+          "advance": 1040,
+          "lsb": 101,
+          "bbox": [
+            75,
+            -358,
+            1046,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            51,
+            94
+          ]
+        },
+        "glyph00693": {
+          "advance": 1146,
+          "lsb": 112,
+          "bbox": [
+            86,
+            -358,
+            1224,
+            1748
+          ],
+          "contours": 3,
+          "contour_points": [
+            84,
+            53,
+            94
+          ]
+        },
+        "uni0645": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            -16,
+            -204,
+            1278,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            57,
+            30
+          ]
+        },
+        "uniFEE1": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            -16,
+            -204,
+            1278,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            57,
+            30
+          ]
+        },
+        "uniFEE2": {
+          "advance": 1479,
+          "lsb": 10,
+          "bbox": [
+            -16,
+            -202,
+            1559,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            82,
+            26
+          ]
+        },
+        "uniFEE3": {
+          "advance": 1029,
+          "lsb": -64,
+          "bbox": [
+            -91,
+            -41,
+            885,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            53,
+            25
+          ]
+        },
+        "uniFEE4": {
+          "advance": 1079,
+          "lsb": -64,
+          "bbox": [
+            -91,
+            -41,
+            1177,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            76,
+            28
+          ]
+        },
+        "glyph00100": {
+          "advance": 1029,
+          "lsb": 5,
+          "bbox": [
+            -21,
+            -768,
+            898,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            63,
+            25
+          ]
+        },
+        "glyph00104": {
+          "advance": 1079,
+          "lsb": 5,
+          "bbox": [
+            -21,
+            -768,
+            1159,
+            662
+          ],
+          "contours": 2,
+          "contour_points": [
+            98,
+            26
+          ]
+        },
+        "glyph00615": {
+          "advance": 1668,
+          "lsb": -66,
+          "bbox": [
+            -93,
+            -41,
+            1598,
+            1304
+          ],
+          "contours": 3,
+          "contour_points": [
+            104,
+            84,
+            28
+          ]
+        },
+        "glyph00620": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -73,
+            -418,
+            1525,
+            662
+          ],
+          "contours": 3,
+          "contour_points": [
+            107,
+            28,
+            29
+          ]
+        },
+        "glyph00625": {
+          "advance": 1688,
+          "lsb": -65,
+          "bbox": [
+            -92,
+            -41,
+            1589,
+            1112
+          ],
+          "contours": 3,
+          "contour_points": [
+            106,
+            46,
+            28
+          ]
+        },
+        "glyph00630": {
+          "advance": 1688,
+          "lsb": -66,
+          "bbox": [
+            -93,
+            -41,
+            1570,
+            1310
+          ],
+          "contours": 3,
+          "contour_points": [
+            104,
+            62,
+            28
+          ]
+        },
+        "glyph00750": {
+          "advance": 2025,
+          "lsb": 10,
+          "bbox": [
+            -16,
+            -202,
+            1939,
+            1260
+          ],
+          "contours": 2,
+          "contour_points": [
+            93,
+            24
+          ]
+        },
+        "uniFCCC": {
+          "advance": 1626,
+          "lsb": -66,
+          "bbox": [
+            -93,
+            -41,
+            1531,
+            1260
+          ],
+          "contours": 2,
+          "contour_points": [
+            92,
+            28
+          ]
+        },
+        "glyph00756": {
+          "advance": 1502,
+          "lsb": 130,
+          "bbox": [
+            104,
+            -41,
+            1587,
+            1261
+          ],
+          "contours": 2,
+          "contour_points": [
+            92,
+            29
+          ]
+        },
+        "glyph00757": {
+          "advance": 1485,
+          "lsb": -112,
+          "bbox": [
+            -138,
+            -41,
+            1571,
+            1532
+          ],
+          "contours": 3,
+          "contour_points": [
+            93,
+            58,
+            29
+          ]
+        },
+        "glyph00758": {
+          "advance": 1502,
+          "lsb": 77,
+          "bbox": [
+            51,
+            -41,
+            1589,
+            1709
+          ],
+          "contours": 3,
+          "contour_points": [
+            89,
+            75,
+            29
+          ]
+        },
+        "glyph00759": {
+          "advance": 1510,
+          "lsb": 64,
+          "bbox": [
+            38,
+            -544,
+            1581,
+            1261
+          ],
+          "contours": 3,
+          "contour_points": [
+            94,
+            75,
+            28
+          ]
+        },
+        "glyph00761": {
+          "advance": 1654,
+          "lsb": -65,
+          "bbox": [
+            -91,
+            -41,
+            1542,
+            1209
+          ],
+          "contours": 3,
+          "contour_points": [
+            106,
+            28,
+            28
+          ]
+        },
+        "glyph00765": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -73,
+            -423,
+            1543,
+            662
+          ],
+          "contours": 3,
+          "contour_points": [
+            107,
+            46,
+            28
+          ]
+        },
+        "uni0695": {
+          "advance": 645,
+          "lsb": 68,
+          "bbox": [
+            42,
+            -898,
+            619,
+            600
+          ],
+          "contours": 2,
+          "contour_points": [
+            62,
+            53
+          ]
+        },
+        "glyph00274": {
+          "advance": 708,
+          "lsb": -80,
+          "bbox": [
+            -107,
+            -898,
+            779,
+            615
+          ],
+          "contours": 2,
+          "contour_points": [
+            79,
+            53
+          ]
+        }
+      }
+    },
+    {
+      "file": "BASEMeridionKurdish-Bold.ttf",
+      "typographic_family": "BASE Meridion Kurdish",
+      "typographic_subfamily": "Bold",
+      "win_family": "BASE Meridion Kurdish",
+      "win_subfamily": "Bold",
+      "full_name": "BASE Meridion Kurdish Bold",
+      "postscript": "BASEMeridionKurdish-Bold",
+      "usWeightClass": 700,
+      "glyphs": 1509,
+      "unicode_codepoints": 1089,
+      "notdef_free": true,
+      "target_shaping": {
+        "ڵ": [
+          "uni06B5"
+        ],
+        "سڵاو": [
+          "uni0648",
+          "glyph00681",
+          "uniFEB3"
+        ],
+        "بڵ": [
+          "glyph00454",
+          "uniFE91"
+        ],
+        "ڵب": [
+          "uniFE90",
+          "glyph00452"
+        ],
+        "بڵب": [
+          "uniFE90",
+          "glyph00453",
+          "uniFE91"
+        ],
+        "ڵا": [
+          "glyph00680"
+        ],
+        "بڵا": [
+          "glyph00681",
+          "uniFE91"
+        ],
+        "ڵآ": [
+          "glyph00682"
+        ],
+        "بڵآ": [
+          "glyph00683",
+          "uniFE91"
+        ],
+        "ڵأ": [
+          "glyph00684"
+        ],
+        "بڵأ": [
+          "glyph00685",
+          "uniFE91"
+        ],
+        "ڵإ": [
+          "glyph00686"
+        ],
+        "بڵإ": [
+          "glyph00687",
+          "uniFE91"
+        ],
+        "ڵٱ": [
+          "glyph00688"
+        ],
+        "بڵٱ": [
+          "glyph00689",
+          "uniFE91"
+        ],
+        "ڵٲ": [
+          "glyph00690"
+        ],
+        "بڵٲ": [
+          "glyph00691",
+          "uniFE91"
+        ],
+        "ڵٳ": [
+          "glyph00692"
+        ],
+        "بڵٳ": [
+          "glyph00693",
+          "uniFE91"
+        ],
+        "م": [
+          "uni0645"
+        ],
+        "کەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFB90"
+        ],
+        "ئەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFE8B"
+        ],
+        "دەم": [
+          "uni0645",
+          "uni06D5",
+          "uni062F"
+        ],
+        "مەم": [
+          "uni0645",
+          "glyph00572",
+          "uniFEE3"
+        ],
+        "گەرم": [
+          "uni0645",
+          "uni0631",
+          "glyph00572",
+          "uniFB94"
+        ],
+        "ممم": [
+          "uniFEE2",
+          "uniFEE4",
+          "uniFEE3"
+        ],
+        "ئمب": [
+          "uniFE90",
+          "glyph00615"
+        ],
+        "بمب": [
+          "uniFE90",
+          "glyph00620"
+        ],
+        "تمب": [
+          "uniFE90",
+          "glyph00625"
+        ],
+        "ثمب": [
+          "uniFE90",
+          "glyph00630"
+        ],
+        "لم": [
+          "glyph00750"
+        ],
+        "لمب": [
+          "uniFE90",
+          "uniFCCC"
+        ],
+        "کما": [
+          "glyph00756",
+          "uniFB90"
+        ],
+        "کمآ": [
+          "glyph00757",
+          "uniFB90"
+        ],
+        "کمأ": [
+          "glyph00758",
+          "uniFB90"
+        ],
+        "کمإ": [
+          "glyph00759",
+          "uniFB90"
+        ],
+        "نمب": [
+          "uniFE90",
+          "glyph00761"
+        ],
+        "يمب": [
+          "uniFE90",
+          "glyph00765"
+        ],
+        "ڕ": [
+          "uni0695"
+        ],
+        "بڕ": [
+          "glyph00274",
+          "uniFE91"
+        ],
+        "ڕب": [
+          "uni0628",
+          "uni0695"
+        ]
+      },
+      "target_join_overlaps": {
+        "بڵ": [
+          true
+        ],
+        "ڵب": [
+          true
+        ],
+        "بڵب": [
+          true,
+          true
+        ],
+        "بم": [
+          true
+        ],
+        "مب": [
+          true
+        ],
+        "مم": [
+          true
+        ],
+        "ممم": [
+          true,
+          true
+        ],
+        "بمب": [
+          true
+        ],
+        "بڕ": [
+          true
+        ],
+        "ڕب": [
+          false
+        ],
+        "بڕب": [
+          false,
+          true
+        ]
+      },
+      "target_geometry": {
+        "uni06B5": {
+          "advance": 1178,
+          "lsb": 68,
+          "bbox": [
+            28,
+            -456,
+            1231,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            72,
+            53
+          ]
+        },
+        "glyph00452": {
+          "advance": 527,
+          "lsb": -62,
+          "bbox": [
+            -102,
+            -40,
+            542,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            41,
+            55
+          ]
+        },
+        "glyph00453": {
+          "advance": 708,
+          "lsb": -66,
+          "bbox": [
+            -106,
+            -40,
+            820,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            74,
+            53
+          ]
+        },
+        "glyph00454": {
+          "advance": 1246,
+          "lsb": 20,
+          "bbox": [
+            -20,
+            -456,
+            1341,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            97,
+            53
+          ]
+        },
+        "glyph00680": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            42,
+            -40,
+            1059,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            59,
+            53
+          ]
+        },
+        "glyph00681": {
+          "advance": 1126,
+          "lsb": 83,
+          "bbox": [
+            42,
+            -40,
+            1235,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            88,
+            53
+          ]
+        },
+        "glyph00682": {
+          "advance": 1040,
+          "lsb": 19,
+          "bbox": [
+            -21,
+            -40,
+            1060,
+            1763
+          ],
+          "contours": 2,
+          "contour_points": [
+            121,
+            53
+          ]
+        },
+        "glyph00683": {
+          "advance": 1126,
+          "lsb": 50,
+          "bbox": [
+            10,
+            -40,
+            1235,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            58,
+            54
+          ]
+        },
+        "glyph00684": {
+          "advance": 1040,
+          "lsb": 81,
+          "bbox": [
+            40,
+            -40,
+            1059,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            72,
+            53
+          ]
+        },
+        "glyph00685": {
+          "advance": 1126,
+          "lsb": 81,
+          "bbox": [
+            40,
+            -40,
+            1235,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            73,
+            53
+          ]
+        },
+        "glyph00686": {
+          "advance": 1040,
+          "lsb": 105,
+          "bbox": [
+            64,
+            -558,
+            1060,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            75,
+            53
+          ]
+        },
+        "glyph00687": {
+          "advance": 1126,
+          "lsb": 105,
+          "bbox": [
+            64,
+            -558,
+            1219,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            75,
+            53
+          ]
+        },
+        "glyph00688": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            42,
+            -40,
+            1059,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            106,
+            53,
+            15
+          ]
+        },
+        "glyph00689": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            58,
+            -40,
+            1251,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            132,
+            53,
+            15
+          ]
+        },
+        "glyph00690": {
+          "advance": 1040,
+          "lsb": 83,
+          "bbox": [
+            42,
+            -40,
+            1059,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            53,
+            73
+          ]
+        },
+        "glyph00691": {
+          "advance": 1146,
+          "lsb": 99,
+          "bbox": [
+            58,
+            -40,
+            1251,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            88,
+            53,
+            73
+          ]
+        },
+        "glyph00692": {
+          "advance": 1040,
+          "lsb": 101,
+          "bbox": [
+            60,
+            -373,
+            1060,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            59,
+            53,
+            72
+          ]
+        },
+        "glyph00693": {
+          "advance": 1146,
+          "lsb": 112,
+          "bbox": [
+            72,
+            -372,
+            1239,
+            1763
+          ],
+          "contours": 3,
+          "contour_points": [
+            84,
+            53,
+            73
+          ]
+        },
+        "uni0645": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            -30,
+            -218,
+            1292,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            57,
+            30
+          ]
+        },
+        "uniFEE1": {
+          "advance": 1342,
+          "lsb": 10,
+          "bbox": [
+            -30,
+            -218,
+            1292,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            57,
+            30
+          ]
+        },
+        "uniFEE2": {
+          "advance": 1479,
+          "lsb": 10,
+          "bbox": [
+            -30,
+            -216,
+            1574,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            82,
+            28
+          ]
+        },
+        "uniFEE3": {
+          "advance": 1029,
+          "lsb": -64,
+          "bbox": [
+            -106,
+            -55,
+            899,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            53,
+            27
+          ]
+        },
+        "uniFEE4": {
+          "advance": 1079,
+          "lsb": -64,
+          "bbox": [
+            -106,
+            -55,
+            1192,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            76,
+            28
+          ]
+        },
+        "glyph00100": {
+          "advance": 1029,
+          "lsb": 5,
+          "bbox": [
+            -35,
+            -782,
+            912,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            66,
+            27
+          ]
+        },
+        "glyph00104": {
+          "advance": 1079,
+          "lsb": 5,
+          "bbox": [
+            -35,
+            -782,
+            1173,
+            676
+          ],
+          "contours": 2,
+          "contour_points": [
+            96,
+            26
+          ]
+        },
+        "glyph00615": {
+          "advance": 1668,
+          "lsb": -66,
+          "bbox": [
+            -107,
+            -55,
+            1613,
+            1318
+          ],
+          "contours": 3,
+          "contour_points": [
+            105,
+            84,
+            28
+          ]
+        },
+        "glyph00620": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -87,
+            -433,
+            1539,
+            676
+          ],
+          "contours": 3,
+          "contour_points": [
+            107,
+            28,
+            29
+          ]
+        },
+        "glyph00625": {
+          "advance": 1688,
+          "lsb": -65,
+          "bbox": [
+            -106,
+            -55,
+            1603,
+            1126
+          ],
+          "contours": 3,
+          "contour_points": [
+            108,
+            46,
+            28
+          ]
+        },
+        "glyph00630": {
+          "advance": 1688,
+          "lsb": -66,
+          "bbox": [
+            -107,
+            -55,
+            1584,
+            1324
+          ],
+          "contours": 3,
+          "contour_points": [
+            105,
+            55,
+            28
+          ]
+        },
+        "glyph00750": {
+          "advance": 2025,
+          "lsb": 10,
+          "bbox": [
+            -30,
+            -216,
+            1953,
+            1274
+          ],
+          "contours": 2,
+          "contour_points": [
+            93,
+            26
+          ]
+        },
+        "uniFCCC": {
+          "advance": 1626,
+          "lsb": -66,
+          "bbox": [
+            -107,
+            -55,
+            1545,
+            1274
+          ],
+          "contours": 2,
+          "contour_points": [
+            92,
+            28
+          ]
+        },
+        "glyph00756": {
+          "advance": 1502,
+          "lsb": 130,
+          "bbox": [
+            90,
+            -55,
+            1602,
+            1275
+          ],
+          "contours": 2,
+          "contour_points": [
+            94,
+            29
+          ]
+        },
+        "glyph00757": {
+          "advance": 1485,
+          "lsb": -112,
+          "bbox": [
+            -152,
+            -55,
+            1585,
+            1546
+          ],
+          "contours": 3,
+          "contour_points": [
+            93,
+            58,
+            29
+          ]
+        },
+        "glyph00758": {
+          "advance": 1502,
+          "lsb": 77,
+          "bbox": [
+            37,
+            -55,
+            1603,
+            1723
+          ],
+          "contours": 3,
+          "contour_points": [
+            89,
+            75,
+            29
+          ]
+        },
+        "glyph00759": {
+          "advance": 1510,
+          "lsb": 64,
+          "bbox": [
+            24,
+            -558,
+            1596,
+            1275
+          ],
+          "contours": 3,
+          "contour_points": [
+            96,
+            75,
+            28
+          ]
+        },
+        "glyph00761": {
+          "advance": 1654,
+          "lsb": -65,
+          "bbox": [
+            -105,
+            -55,
+            1557,
+            1223
+          ],
+          "contours": 3,
+          "contour_points": [
+            107,
+            28,
+            28
+          ]
+        },
+        "glyph00765": {
+          "advance": 1650,
+          "lsb": -46,
+          "bbox": [
+            -87,
+            -438,
+            1557,
+            676
+          ],
+          "contours": 3,
+          "contour_points": [
+            107,
+            46,
+            28
+          ]
+        },
+        "uni0695": {
+          "advance": 645,
+          "lsb": 68,
+          "bbox": [
+            27,
+            -912,
+            633,
+            614
+          ],
+          "contours": 2,
+          "contour_points": [
+            62,
+            53
+          ]
+        },
+        "glyph00274": {
+          "advance": 708,
+          "lsb": -80,
+          "bbox": [
+            -121,
+            -912,
+            794,
+            629
+          ],
+          "contours": 2,
+          "contour_points": [
+            79,
+            53
+          ]
+        }
+      }
+    }
+  ],
+  "build_reports": [
+    {
+      "style": "Regular",
+      "weight": 400,
+      "dilate_radius": 0.0,
+      "glyphs_reweighted": 0,
+      "smooth": true,
+      "target_repairs": {
+        "lam_with_small_v": 18,
+        "meem": 5,
+        "rreh": 2,
+        "total": 25
+      },
+      "symbols_added": {
+        "spaces": 13,
+        "punctuation": 22,
+        "superiors_inferiors": 31,
+        "fractions": 16,
+        "math": 60,
+        "arrows": 28,
+        "geometric": 37,
+        "misc_symbols": 32,
+        "letterlike": 8,
+        "currency": 27,
+        "arabic_marks": 12,
+        "total": 286
+      },
+      "heh_forms_rounded": 0,
+      "feh_forms_transplanted": 0
+    },
+    {
+      "style": "Medium",
+      "weight": 500,
+      "dilate_radius": 14.0,
+      "glyphs_reweighted": 1490,
+      "smooth": true,
+      "target_repairs": {
+        "lam_with_small_v": 18,
+        "meem": 5,
+        "rreh": 2,
+        "total": 25
+      },
+      "symbols_added": {
+        "spaces": 13,
+        "punctuation": 22,
+        "superiors_inferiors": 31,
+        "fractions": 16,
+        "math": 60,
+        "arrows": 28,
+        "geometric": 37,
+        "misc_symbols": 32,
+        "letterlike": 8,
+        "currency": 27,
+        "arabic_marks": 12,
+        "total": 286
+      },
+      "heh_forms_rounded": 0,
+      "feh_forms_transplanted": 0
+    },
+    {
+      "style": "SemiBold",
+      "weight": 600,
+      "dilate_radius": 26.0,
+      "glyphs_reweighted": 1490,
+      "smooth": true,
+      "target_repairs": {
+        "lam_with_small_v": 18,
+        "meem": 5,
+        "rreh": 2,
+        "total": 25
+      },
+      "symbols_added": {
+        "spaces": 13,
+        "punctuation": 22,
+        "superiors_inferiors": 31,
+        "fractions": 16,
+        "math": 60,
+        "arrows": 28,
+        "geometric": 37,
+        "misc_symbols": 32,
+        "letterlike": 8,
+        "currency": 27,
+        "arabic_marks": 12,
+        "total": 286
+      },
+      "heh_forms_rounded": 0,
+      "feh_forms_transplanted": 0
+    },
+    {
+      "style": "Bold",
+      "weight": 700,
+      "dilate_radius": 40.0,
+      "glyphs_reweighted": 1490,
+      "smooth": true,
+      "target_repairs": {
+        "lam_with_small_v": 18,
+        "meem": 5,
+        "rreh": 2,
+        "total": 25
+      },
+      "symbols_added": {
+        "spaces": 13,
+        "punctuation": 22,
+        "superiors_inferiors": 31,
+        "fractions": 16,
+        "math": 60,
+        "arrows": 28,
+        "geometric": 37,
+        "misc_symbols": 32,
+        "letterlike": 8,
+        "currency": 27,
+        "arabic_marks": 12,
+        "total": 286
+      },
+      "heh_forms_rounded": 0,
+      "feh_forms_transplanted": 0
+    }
+  ]
+}
