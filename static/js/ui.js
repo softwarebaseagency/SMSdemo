@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — UI building blocks
+   School Management System — UI building blocks
    Small HTML builders plus the few interactive components the demo needs:
    a sortable/filterable table, a detail drawer, and toasts.
    ========================================================================= */

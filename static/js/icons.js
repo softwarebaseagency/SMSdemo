@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Icon set
+   School Management System — Icon set
    One family, one visual language: 24x24 grid, 1.75 stroke, round caps/joins.
    No emoji anywhere in the product. Decorative icons beside visible text get
    aria-hidden; standalone icon controls get an accessible name from the button.

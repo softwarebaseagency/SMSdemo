@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Shell, navigation and hash router
+   School Management System — Shell, navigation and hash router
 
    Exactly the ten modules named in the proposal, grouped the way a real
    product would group them. Every module is deep-linkable (#/students), so
@@ -266,7 +266,7 @@
     document.getElementById("userBtn").addEventListener("click", function () {
       var html = '<div class="menu__label">Rezan Ibrahim</div>' +
         '<div style="padding:0 12px 8px;font-size:var(--text-xs);color:var(--ink-muted)">' +
-        UI.esc(t("role.director")) + " · rezan.director@lezan.edu.krd</div><hr>" +
+        UI.esc(t("role.director")) + " · rezan.director@school.edu.krd</div><hr>" +
         '<button type="button" data-demo-action="settings">' + Icon("settings", { size: 15 }) +
         "Settings</button>" +
         '<button type="button" data-demo-action="audit">' + Icon("shield", { size: 15 }) +

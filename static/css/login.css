@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Sign-in screen
+   School Management System — Sign-in screen
    ========================================================================= */
 
 .login {
@@ -31,7 +31,7 @@
   border-radius: var(--radius);
   background: var(--brand-navy); color: var(--brand-yellow);
   display: grid; place-items: center;
-  font-weight: 700; font-size: var(--text-base); letter-spacing: 0.02em;
+  font-weight: 700; font-size: var(--text-sm); letter-spacing: 0.03em;
 }
 .login__brand-name {
   display: block;

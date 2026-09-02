@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Chart layer
+   School Management System — Chart layer
 
    Hand-rolled SVG. No chart library, no CDN — the demo has to open from a
    file:// path, GitHub Pages or Cloudflare Pages with equal reliability.

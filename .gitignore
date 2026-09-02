@@ -1,1 +1,7 @@
-Base_Agency_Lezan_SMS_Final_Technical_Commercial_Proposal_v1.0.pdf
+# Proposal PDF and scratch notes — never published with the demo
+*.pdf
+txt.txt
+
+# Tooling caches — the compiled Python embeds the local folder path
+.claude/
+__pycache__/

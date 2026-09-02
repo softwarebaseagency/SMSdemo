@@ -117,8 +117,8 @@ window.Views.exams = function (root) {
         body:
           '<div class="reportcard">' +
             '<div class="reportcard__head">' +
-              '<span class="crest" aria-hidden="true">LZ</span>' +
-              "<span><span class=\"reportcard__school\">Lezan Private School</span>" +
+              '<span class="crest" aria-hidden="true">SMS</span>' +
+              "<span><span class=\"reportcard__school\">" + UI.esc(t("app.name")) + "</span>" +
               '<span class="reportcard__term">Term 1 Final · ' + D.meta.currentYear + "</span></span>" +
               '<span class="reportcard__grade"><b>' + D.letterFor(rc.student.average) + "</b>" +
               "<span>" + F.dec(rc.student.average) + " / 100</span></span>" +

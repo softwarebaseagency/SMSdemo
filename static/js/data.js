@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Illustrative dataset
+   School Management System — Illustrative dataset
    Every record here is fabricated for demonstration. Names, IDs, marks and
    amounts are invented and do not describe any real student, family or staff
    member. Generation is seeded, so the demo looks identical on every reload.
@@ -100,30 +100,30 @@
     "Arts & Sport", "Administration", "Finance", "Support"];
 
   var STAFF = [
-    ["Nma Karim",        "Head of English",        "Languages",     "eng", "LZ-T-041", "2019-09-01"],
-    ["Karwan Sabir",     "English Teacher",        "Languages",     "eng", "LZ-T-052", "2021-09-01"],
-    ["Shilan Tahir",     "Kurdish Teacher",        "Languages",     "kur", "LZ-T-018", "2017-09-01"],
-    ["Rebin Hussein",    "Arabic Teacher",         "Languages",     "ara", "LZ-T-063", "2022-09-01"],
-    ["Aram Qadir",       "Head of Mathematics",    "Mathematics",   "mat", "LZ-T-009", "2015-09-01"],
-    ["Bahar Nuri",       "Mathematics Teacher",    "Mathematics",   "mat", "LZ-T-071", "2023-09-01"],
-    ["Hemn Salih",       "Physics Teacher",        "Science",       "phy", "LZ-T-027", "2018-09-01"],
-    ["Zhyan Rashid",     "Chemistry Teacher",      "Science",       "che", "LZ-T-034", "2019-09-01"],
-    ["Diyar Aziz",       "Biology Teacher",        "Science",       "bio", "LZ-T-046", "2020-09-01"],
-    ["Lana Jamal",       "Science Teacher (KG/EL)", "Science",      "sci", "LZ-T-055", "2021-09-01"],
-    ["Peshraw Faris",    "Computer Science",       "Science",       "ict", "LZ-T-067", "2022-09-01"],
-    ["Avan Mahmood",     "History Teacher",        "Humanities",    "his", "LZ-T-030", "2018-09-01"],
-    ["Soran Bakr",       "Geography Teacher",      "Humanities",    "geo", "LZ-T-058", "2021-09-01"],
-    ["Hawnaz Anwar",     "Islamic Studies",        "Humanities",    "isl", "LZ-T-022", "2017-09-01"],
-    ["Rangin Kamal",     "Art & Design",           "Arts & Sport",  "art", "LZ-T-061", "2022-09-01"],
-    ["Botan Mustafa",    "Physical Education",     "Arts & Sport",  "pe",  "LZ-T-044", "2020-09-01"],
-    ["Rezan Ibrahim",    "School Director",        "Administration", null, "LZ-A-001", "2014-08-15"],
-    ["Chnar Sadiq",      "Registrar",              "Administration", null, "LZ-A-006", "2016-08-20"],
-    ["Halgurd Younis",   "Academic Coordinator",   "Administration", null, "LZ-A-011", "2018-08-25"],
-    ["Nazdar Rasul",     "Finance Manager",        "Finance",       null, "LZ-F-003", "2016-09-05"],
-    ["Sirwan Latif",     "Accountant / Cashier",   "Finance",       null, "LZ-F-008", "2020-09-10"],
-    ["Trifa Sherko",     "School Nurse",           "Support",       null, "LZ-S-014", "2019-09-15"],
-    ["Rawand Baban",     "IT Administrator",       "Support",       null, "LZ-S-019", "2021-09-01"],
-    ["Delan Nawzad",     "Front Desk",             "Support",       null, "LZ-S-023", "2022-09-01"]
+    ["Nma Karim",        "Head of English",        "Languages",     "eng", "STF-T-041", "2019-09-01"],
+    ["Karwan Sabir",     "English Teacher",        "Languages",     "eng", "STF-T-052", "2021-09-01"],
+    ["Shilan Tahir",     "Kurdish Teacher",        "Languages",     "kur", "STF-T-018", "2017-09-01"],
+    ["Rebin Hussein",    "Arabic Teacher",         "Languages",     "ara", "STF-T-063", "2022-09-01"],
+    ["Aram Qadir",       "Head of Mathematics",    "Mathematics",   "mat", "STF-T-009", "2015-09-01"],
+    ["Bahar Nuri",       "Mathematics Teacher",    "Mathematics",   "mat", "STF-T-071", "2023-09-01"],
+    ["Hemn Salih",       "Physics Teacher",        "Science",       "phy", "STF-T-027", "2018-09-01"],
+    ["Zhyan Rashid",     "Chemistry Teacher",      "Science",       "che", "STF-T-034", "2019-09-01"],
+    ["Diyar Aziz",       "Biology Teacher",        "Science",       "bio", "STF-T-046", "2020-09-01"],
+    ["Lana Jamal",       "Science Teacher (KG/EL)", "Science",      "sci", "STF-T-055", "2021-09-01"],
+    ["Peshraw Faris",    "Computer Science",       "Science",       "ict", "STF-T-067", "2022-09-01"],
+    ["Avan Mahmood",     "History Teacher",        "Humanities",    "his", "STF-T-030", "2018-09-01"],
+    ["Soran Bakr",       "Geography Teacher",      "Humanities",    "geo", "STF-T-058", "2021-09-01"],
+    ["Hawnaz Anwar",     "Islamic Studies",        "Humanities",    "isl", "STF-T-022", "2017-09-01"],
+    ["Rangin Kamal",     "Art & Design",           "Arts & Sport",  "art", "STF-T-061", "2022-09-01"],
+    ["Botan Mustafa",    "Physical Education",     "Arts & Sport",  "pe",  "STF-T-044", "2020-09-01"],
+    ["Rezan Ibrahim",    "School Director",        "Administration", null, "STF-A-001", "2014-08-15"],
+    ["Chnar Sadiq",      "Registrar",              "Administration", null, "STF-A-006", "2016-08-20"],
+    ["Halgurd Younis",   "Academic Coordinator",   "Administration", null, "STF-A-011", "2018-08-25"],
+    ["Nazdar Rasul",     "Finance Manager",        "Finance",       null, "STF-F-003", "2016-09-05"],
+    ["Sirwan Latif",     "Accountant / Cashier",   "Finance",       null, "STF-F-008", "2020-09-10"],
+    ["Trifa Sherko",     "School Nurse",           "Support",       null, "STF-S-014", "2019-09-15"],
+    ["Rawand Baban",     "IT Administrator",       "Support",       null, "STF-S-019", "2021-09-01"],
+    ["Delan Nawzad",     "Front Desk",             "Support",       null, "STF-S-023", "2022-09-01"]
   ].map(function (row, i) {
     return {
       id: row[4],
@@ -132,7 +132,7 @@
       department: row[2],
       subject: row[3],
       since: row[5],
-      email: row[0].toLowerCase().replace(/\s+/g, ".") + "@lezan.edu.krd",
+      email: row[0].toLowerCase().replace(/\s+/g, ".") + "@school.edu.krd",
       phone: "0750 " + (300 + i) + " " + (1000 + i * 37).toString().slice(0, 4),
       active: i !== 23,
       classes: 0
@@ -191,7 +191,7 @@
         if (chance(0.07)) { attendance = Math.round((72 + R() * 12) * 10) / 10; }
 
         STUDENTS.push({
-          id: "LZ-" + String(seq).padStart(5, "0"),
+          id: "STU-" + String(seq).padStart(5, "0"),
           name: first + " " + father + " " + family,
           firstName: first,
           gender: isMale ? "M" : "F",
@@ -316,7 +316,7 @@
   while (ROSTER.length < 22) {
     var m2 = chance(0.5);
     ROSTER.push({
-      id: "LZ-0" + int(1000, 1999),
+      id: "STU-0" + int(1000, 1999),
       name: (m2 ? pick(MALE) : pick(FEMALE)) + " " + pick(FAMILY) + " " + pick(FAMILY),
       className: ROSTER_CLASS
     });
@@ -504,17 +504,17 @@
   /* ---- Audit trail (modules 07 & 10) ----------------------------------- */
   var AUDIT = [
     { when: "29 Aug 2026 · 14:22", who: "Nazdar Rasul", role: "Finance Manager",
-      what: "Discount changed from 0 IQD to 300,000 IQD", target: "Student LZ-00138", tone: "warning" },
+      what: "Discount changed from 0 IQD to 300,000 IQD", target: "Student STU-00138", tone: "warning" },
     { when: "29 Aug 2026 · 11:47", who: "Chnar Sadiq", role: "Registrar",
       what: "Application approved and moved to Payment Pending", target: "APP-2627-1093", tone: "good" },
     { when: "28 Aug 2026 · 16:08", who: "Rezan Ibrahim", role: "Director",
       what: "Academic year 2025-2026 closed — records set to read-only", target: "Year 2025-2026", tone: "critical" },
     { when: "28 Aug 2026 · 15:31", who: "Halgurd Younis", role: "Academic Coordinator",
-      what: "Grade changed after publication (Physics, 62 → 68)", target: "Student LZ-00412", tone: "warning" },
+      what: "Grade changed after publication (Physics, 62 → 68)", target: "Student STU-00412", tone: "warning" },
     { when: "28 Aug 2026 · 09:12", who: "Rawand Baban", role: "System Administrator",
       what: "Role permissions updated — Accountant lost Export Data", target: "Role: Accountant", tone: "" },
     { when: "27 Aug 2026 · 17:55", who: "Sirwan Latif", role: "Accountant",
-      what: "Payment reversed — receipt RCP-2627-00981", target: "Student LZ-00287", tone: "critical" },
+      what: "Payment reversed — receipt RCP-2627-00981", target: "Student STU-00287", tone: "critical" },
     { when: "27 Aug 2026 · 13:20", who: "Chnar Sadiq", role: "Registrar",
       what: "Bulk promotion confirmed for 412 students", target: "2025-2026 → 2026-2027", tone: "good" }
   ];
@@ -614,7 +614,6 @@
   /* ---- Public surface -------------------------------------------------- */
   global.DATA = {
     meta: {
-      school: "Lezan English Private School & Kindergarten",
       city: "Erbil, Kurdistan Region — Iraq",
       currentYear: CURRENT_YEAR,
       years: YEARS,

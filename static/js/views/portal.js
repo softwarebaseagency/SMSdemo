@@ -52,7 +52,7 @@ window.Views.portal = function (root) {
     UI.notice({
       tone: "info", icon: "shield",
       title: "Access is limited strictly to the relevant student account",
-      text: "Portal capabilities are configured by Lezan management and can be introduced in stages. Guardians never reach internal staff-only records or administrative functions."
+      text: "Portal capabilities are configured by school management and can be introduced in stages. Guardians never reach internal staff-only records or administrative functions."
     }) +
 
     '<div class="grid grid--side">' +
@@ -76,12 +76,12 @@ window.Views.portal = function (root) {
             '<div class="portal-frame__bar">' +
               '<span class="portal-frame__dots"><i></i><i></i><i></i></span>' +
               '<span class="portal-frame__url">' + Icon("lock", { size: 11 }) +
-              "portal.lezan.edu.krd/guardian</span>" +
+              "portal.school.edu.krd/guardian</span>" +
             "</div>" +
             '<div class="portal-frame__screen">' +
               '<div class="portal-topbar">' +
-                '<span class="sidebar__crest" aria-hidden="true" style="width:28px;height:28px;font-size:11px">LZ</span>' +
-                '<span><span class="text-sm strong">Lezan Parent Portal</span>' +
+                '<span class="sidebar__crest" aria-hidden="true" style="width:28px;height:28px;font-size:10px">SMS</span>' +
+                '<span><span class="text-sm strong">Parent Portal</span>' +
                 '<span class="text-xs muted" style="display:block">' + UI.esc(child.guardian) + "</span></span>" +
                 '<span class="push">' + UI.avatar(child.guardian, "sm") + "</span>" +
               "</div>" +

@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Module-specific layouts
+   School Management System — Module-specific layouts
    ========================================================================= */
 
 /* ---- 04 Timetable grid ------------------------------------------------- */
@@ -76,7 +76,7 @@
 .reportcard__head .crest {
   width: 34px; height: 34px; border-radius: var(--radius);
   background: var(--brand-yellow); color: var(--brand-navy);
-  display: grid; place-items: center; font-weight: 700; font-size: var(--text-xs);
+  display: grid; place-items: center; font-weight: 700; font-size: var(--text-2xs);
   flex: 0 0 auto;
 }
 .reportcard__school { display: block; font-size: var(--text-sm); font-weight: 600; }

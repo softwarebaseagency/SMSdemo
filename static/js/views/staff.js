@@ -2,7 +2,7 @@
    Module 07 — Teacher and Staff Records
    Profiles, department and role assignment, and the links into timetable and
    academic responsibilities. Includes the role/permission matrix, since staff
-   access is what Lezan raised as a concern.
+   access is what schools raise as a concern.
    ========================================================================= */
 window.Views = window.Views || {};
 

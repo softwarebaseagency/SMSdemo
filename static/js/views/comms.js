@@ -71,7 +71,8 @@ window.Views.comms = function (root) {
               "Parent–teacher meetings for <span class=\"tok\">{{student_name}}</span> " +
               "(<span class=\"tok\">{{class}}</span>) will be held on " +
               "<span class=\"tok\">{{meeting_date}}</span>. Please confirm your preferred slot " +
-              "through the parent portal.<br><br>Lezan English Private School &amp; Kindergarten" +
+              "through the parent portal.<br><br>" +
+              "<span class=\"tok\">{{school_name}}</span>" +
             "</div>" +
             '<div class="composer__foot">' +
               UI.btn({ label: "Send now", icon: "arrowRight", variant: "primary", size: "sm", demo: "send" }) +

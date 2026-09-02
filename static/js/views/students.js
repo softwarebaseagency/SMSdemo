@@ -107,7 +107,7 @@ window.Views.students = function (root) {
           UI.field("Guardian email", s.guardianEmail) +
           UI.field("Address", s.address) +
           UI.field("First enrolled", s.joinedYear) +
-          UI.field("Years at Lezan", String(s.yearsEnrolled)) +
+          UI.field("Years at school", String(s.yearsEnrolled)) +
         "</div>";
       }
 

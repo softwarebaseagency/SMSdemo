@@ -1,12 +1,11 @@
-# Lezan School Management System — interface demo
+# School Management System — interface demo
 
-A clickable, look-and-feel demo of the School Management System proposed for
-**Lezan English Private School & Kindergarten**, Erbil. Built by **Base Agency**
-to be shown alongside the technical and commercial proposal
-(`Base_Agency_Lezan_SMS_Final_Technical_Commercial_Proposal_v1.0.pdf`).
+A clickable, look-and-feel demo of a School Management System, built by
+**Base Agency** to be shown alongside a technical and commercial proposal.
 
-It covers **exactly the ten core modules** named in section 5 of that proposal —
-no more, no fewer.
+It covers **exactly ten core modules** — no more, no fewer. The demo carries no
+school's name or branding: it is the product, shown neutrally, so it can be
+presented to any school.
 
 > **This is a visual demo, not a working system.** Every record, mark, invoice
 > and name is fabricated for illustration. There is no backend, no database and
@@ -142,11 +141,13 @@ assets/                 Brand source material — not used by the site at runtim
   identical on every reload and on every machine. Change the seed to reshuffle.
 - **Adding a module is not the plan.** The sidebar maps 1:1 to the proposal's ten
   modules. If scope changes, change the proposal first.
+- **No school is named anywhere.** Brand chrome, the report card, the invoice and
+  the message composer all read as the generic product. Keep it that way — the
+  demo is shown to more than one prospect.
 - **Accessibility** was built in, not retrofitted: visible focus rings, keyboard
   paths through tables, charts and the drawer, status conveyed by icon and label
   rather than colour alone, and `prefers-reduced-motion` respected throughout.
 
 ---
 
-© Base Agency. Prepared for Lezan English Private School & Kindergarten.
-Confidential — client use only.
+© Base Agency. Confidential — client use only.

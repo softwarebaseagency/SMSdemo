@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Application shell, components, utilities
+   School Management System — Application shell, components, utilities
    ========================================================================= */
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -85,13 +85,16 @@ a { color: inherit; text-decoration: none; }
   background: var(--brand-yellow);
   color: var(--brand-navy);
   display: grid; place-items: center;
-  font-weight: 700; font-size: 0.8125rem; letter-spacing: 0.02em;
+  /* three letters in a 34px tile — sized so the mark keeps its inset */
+  font-weight: 700; font-size: var(--text-2xs); letter-spacing: 0.03em;
 }
 .sidebar__wordmark { min-width: 0; }
 .sidebar__name {
   display: block;
   font-size: var(--text-base); font-weight: 600; letter-spacing: -0.01em;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  /* the product name is longer than the rail in all three languages —
+     wrap it rather than truncating the word "System" to an ellipsis */
+  line-height: 1.2;
 }
 .sidebar__sub {
   font-size: 10px; color: var(--ink-on-dark-dim);

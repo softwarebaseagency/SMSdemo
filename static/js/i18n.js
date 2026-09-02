@@ -1,5 +1,5 @@
 /* ============================================================================
-   Lezan SMS — Interface language
+   School Management System — Interface language
    English / Kurdish (Sorani) / Arabic, with a full RTL layout flip.
    Chrome is translated (navigation, titles, KPI labels, actions, statuses);
    record data stays in its source script, as it would in the real system.
@@ -15,12 +15,10 @@
 
   var DICT = {
     /* ---- Product & shell ------------------------------------------------ */
-    "app.name":            ["Lezan SMS", "سیستەمی لەزان", "نظام ليزان"],
-    "app.school":          ["Lezan English Private School & Kindergarten",
-                            "قوتابخانەی لێزانی ناحوکومی و باخچەی ساوایان",
-                            "مدرسة ليزان الأهلية الإنجليزية وروضة الأطفال"],
-    "app.schoolShort":     ["Lezan Private School", "قوتابخانەی لێزانی ناحوکومی", "مدرسة ليزان الأهلية"],
-    "app.tagline":         ["School Management System", "سیستەمی بەڕێوەبردنی قوتابخانە", "نظام إدارة المدرسة"],
+    "app.name":            ["School Management System",
+                            "سیستەمی بەڕێوەبردنی قوتابخانە",
+                            "نظام إدارة المدرسة"],
+    "app.tagline":         ["Interface demo", "پێشاندانی ڕووکار", "عرض توضيحي للواجهة"],
     "app.byBase":          ["Built by Base Agency", "دروستکراوە لەلایەن بەیس ئەیجەنسی", "من تطوير بيس إيجنسي"],
     "app.demo":            ["Demo preview", "پێشبینینی نموونەیی", "معاينة تجريبية"],
 
@@ -60,9 +58,9 @@
     "purpose.admissions":  ["Manage the full student intake process, from first application through confirmed registration.",
                             "بەڕێوەبردنی تەواوی پرۆسەی وەرگرتنی قوتابی، لە داواکاری یەکەمەوە تا تۆمارکردنی پەسەندکراو.",
                             "إدارة عملية استقبال الطلاب بالكامل، من الطلب الأول حتى التسجيل المعتمد."],
-    "purpose.students":    ["One permanent, searchable and auditable profile for every student, for the whole time they are with Lezan.",
-                            "یەک پرۆفایلی هەمیشەیی و گەڕانپێکراو بۆ هەر قوتابییەک، بە درێژایی ماوەی مانەوەی لە لەزان.",
-                            "ملف دائم واحد قابل للبحث والتدقيق لكل طالب طوال فترة وجوده في ليزان."],
+    "purpose.students":    ["One permanent, searchable and auditable profile for every student, for the whole time they are with the school.",
+                            "یەک پرۆفایلی هەمیشەیی و گەڕانپێکراو بۆ هەر قوتابییەک، بە درێژایی ماوەی مانەوەی لە قوتابخانەکە.",
+                            "ملف دائم واحد قابل للبحث والتدقيق لكل طالب طوال فترة وجوده في المدرسة."],
     "purpose.attendance":  ["Reliable daily attendance recording and reporting for students, classes and management.",
                             "تۆمارکردن و ڕاپۆرتی ڕۆژانەی ئامادەبوون بۆ قوتابیان، پۆلەکان و بەڕێوەبەرایەتی.",
                             "تسجيل الحضور اليومي وإعداد التقارير للطلاب والصفوف والإدارة."],
@@ -216,7 +214,7 @@
                             "تبقى الالتزامات المالية مرتبطة برقم الطالب الدائم عبر الترفيع وتغيير الصف وإعادة التسجيل."],
 
     /* ---- Sign-in --------------------------------------------------------- */
-    "login.title":         ["Sign in to Lezan SMS", "چوونەژوورەوە بۆ سیستەمی لەزان", "تسجيل الدخول إلى نظام ليزان"],
+    "login.title":         ["Sign in", "چوونەژوورەوە", "تسجيل الدخول"],
     "login.lede":          ["One controlled platform for the student journey — from application and registration through attendance, academics, finance, promotion and graduation.",
                             "یەک سەکۆی کۆنترۆڵکراو بۆ گەشتی قوتابی — لە داواکاری و تۆمارکردنەوە تا ئامادەبوون، خوێندن، دارایی، بەرزکردنەوە و دەرچوون.",
                             "منصة واحدة محكومة لرحلة الطالب — من الطلب والتسجيل إلى الحضور والدراسة والمالية والترفيع والتخرج."],
@@ -278,7 +276,7 @@
   function set(lang) {
     if (!LANGS[lang] || lang === current) { return; }
     current = lang;
-    try { localStorage.setItem("lezan.lang", lang); } catch (e) { /* private mode */ }
+    try { localStorage.setItem("sms.lang", lang); } catch (e) { /* private mode */ }
     apply();
     listeners.forEach(function (fn) { fn(lang); });
   }
@@ -305,7 +303,7 @@
 
   function restore() {
     var saved = null;
-    try { saved = localStorage.getItem("lezan.lang"); } catch (e) { /* private mode */ }
+    try { saved = localStorage.getItem("sms.lang"); } catch (e) { /* private mode */ }
     current = (saved && LANGS[saved]) ? saved : "en";
     apply();
     return current;
